@@ -12,9 +12,9 @@ Bu proje, CIFAR-10 veri kümesini kullanarak derin öğrenme modelleri olan Dens
 
 Her bir model için ayrı ayrı dosyalar kullanılmıştır:
 
-- **DenseNet**: [densenet.py](link)
-- **ResNet**: [resnet.py](link)
-- **VGGNet**: [vggnet.py](link)
+- **DenseNet**: [densenet.py](https://github.com/Umit22/Cnn-Modeller/blob/main/denseNet.py)
+- **ResNet**: [resnet.py](https://github.com/Umit22/Cnn-Modeller/blob/main/resNet.py)
+- **VGGNet**: [vggnet.py](https://github.com/Umit22/Cnn-Modeller/blob/main/vggNet.py)
 
 Her dosyada, ilgili modelin oluşturulması, derlenmesi, eğitilmesi ve değerlendirilmesi kodları bulunmaktadır. Her modelin mimarisi ve eğitim süreci ayrıntılı olarak açıklanmıştır.
 
@@ -25,9 +25,12 @@ Projenin kullanımı için gereksinimler:
 - Python 3.x
 - TensorFlow
 
-Her bir modelin kodunu çalıştırmak için ilgili dosyayı kullanabilirsiniz:
+# Sonuçlar 
+Her bir model, CIFAR-10 veri kümesi üzerinde eğitildikten sonra elde edilen doğruluk oranları şunlardır:
 
-```bash
-python densenet.py
-python resnet.py
-python vggnet.py
+DenseNet model doğruluğu: (0.7213)
+ResNet model doğruluğu: (0.6002)
+VGGNet model doğruluğu: (0.1)
+
+# Katkıda Bulunma 
+Her türlü katkıya açığım. Lütfen işlem yapmak istediğiniz özellikleri veya hata düzeltmelerini içeren bir pull talebi gönderin.
